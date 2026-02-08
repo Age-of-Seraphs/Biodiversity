@@ -2,11 +2,16 @@
     "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
     "type": "Code",
     "modid": "biodiversity",
-    "name": "biodiversity",
-    "authors": [
-      "Captanredbeard",
-      "Virtusmarek"
-    ],
+    "name": "Biodiversity",
+  "authors": [
+    "Captanredbeard",
+    "WhiskeySunshine",
+    "VirtusMarik",
+    "Sigmadron",
+    "Ледяная Соня (WC)",
+    "CATASTEROID (WC)",
+    "Gabb (WC)"
+  ],
     "description": "To be added",
     "version": "1.0.0",
     "dependencies": {
