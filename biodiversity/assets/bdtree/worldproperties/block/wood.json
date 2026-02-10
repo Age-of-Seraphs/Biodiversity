@@ -172,10 +172,6 @@
 		{
 			Code: "chlorociboria",
 			treeType: "Decidious"
-		},
-		{
-			Code: "petrified",
-			treeType: "Decidious"
 		}
 	]
 }

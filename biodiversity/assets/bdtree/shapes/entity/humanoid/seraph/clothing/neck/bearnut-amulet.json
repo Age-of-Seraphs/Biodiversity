@@ -11,7 +11,7 @@
 		"reedrope": [8,8]
 	},
 	"textures": {
-		"bearnut_seed": "wildcrafttree:item/resource/seeds/bearnut",
+		"bearnut_seed": "item/resource/seeds/bearnut",
 		"reedrope": "game:block/cloth/ropedcloth"
 	},
 	"elements": [
