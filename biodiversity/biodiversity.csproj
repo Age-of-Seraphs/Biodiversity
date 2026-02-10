@@ -69,7 +69,6 @@
   <Folder Include="assets\bdcrop\" />
   <Folder Include="assets\bdorchard\" />
   <Folder Include="assets\bdtree\textures\block\wood\narrow\" />
-  <Folder Include="Resources\wildcraftfruit_1.4.4\assets\wildcraftfruit\shapes\block\trellis\metal\" />
 </ItemGroup>
 
 </Project>
