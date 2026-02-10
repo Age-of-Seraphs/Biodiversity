@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "SRS,RRR,H_C",
+	ingredients: {
+		"H": { type: "item", code: "hammer-*", isTool: true, toolDurabilityCost: 10 },
+		"C": { type: "item", code: "chisel-*", isTool: true, toolDurabilityCost: 20 },
+		"S": { type: "item", code: "game:stick" },
+		"R": { type: "block", code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "peridotite"]  }
+	},
+	name: "quern",
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "quern-{rock}"  }
+}

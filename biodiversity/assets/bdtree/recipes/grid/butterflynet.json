@@ -1,0 +1,14 @@
+[
+	{
+		ingredientPattern: "_NC,_S_,S__",
+		ingredients: {
+			"S": { type: "item", code: "game:stick" },
+			"N": { type: "item", code: "metalnailsandstrips-copper" },
+			"C": { type: "item", code: "cloth-plain" }
+		},
+		name: "net",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "bugnet-copper"  }
+	}
+]

@@ -1,0 +1,22 @@
+[
+{
+	ingredientPattern: "GKG	GGG",
+	ingredients: {
+		"K": { type: "item", code: "knife-*", isTool: true },
+		"G": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "wattle-sticks-ew-free", quantity: 5  }
+},
+{
+	ingredientPattern: "KG,GG",
+	ingredients: {
+		"K": { type: "item", code: "knife-*", isTool: true },
+		"G": { type: "item", code: "game:stick" }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "wattlegate-sticks-n-closed-left-free", quantity: 1  }
+}
+]

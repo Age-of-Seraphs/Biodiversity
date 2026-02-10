@@ -1,0 +1,14 @@
+{
+	ingredientPattern: "SSSCPCGLG",
+	ingredients: {
+		"S": { type: "item", code: "game:stick", quantity: 2 },
+		"C": { type: "item", code: "cloth-plain", quantity: 1 },
+		"G": { type: "item", code: "gear-rusty", quantity: 1 },
+		"L": { type: "item", code: "leather-normal-plain", quantity: 1 },
+		"P": { type: "item", code: "schematic-glider" }
+	},
+	width: 3,
+	height: 3,
+	name: "glider",
+	output: { type: "item", code: "glider"  }
+}
