@@ -1,9 +1,0 @@
-{
-	code: "sporeculture",
-	sealHours: 168,
-	ingredients: [
-		{ type: "item", code: "game:waterportion",  litres: 1 },
-		{ type: "item", code: "chlorociboria", quantity: 2 }
-	],
-	output: { type: "item", code: "chlorociboriaspores", stackSize: 2 }
-}
