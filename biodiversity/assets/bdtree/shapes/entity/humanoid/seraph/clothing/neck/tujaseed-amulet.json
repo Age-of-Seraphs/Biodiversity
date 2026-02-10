@@ -11,7 +11,7 @@
 		"reedrope": [8,8]
 	},
 	"textures": {
-		"tuja_seed": "wildcrafttree:item/resource/seeds/tuja",
+		"tuja_seed": "item/resource/seeds/tuja",
 		"reedrope": "game:block/cloth/ropedcloth"
 	},
 	"elements": [

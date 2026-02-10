@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"wiliwili_seed": "wildcrafttree:item/resource/seeds/wiliwili",
+		"wiliwili_seed": "item/resource/seeds/wiliwili",
 		"reedrope": "game:block/cloth/ropedcloth"
 	},
 	"elements": [

@@ -9,7 +9,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"spruce_seed": "wildcrafttree:item/resource/seeds/spruce",
+		"spruce_seed": "item/resource/seeds/spruce",
 		"reedrope": "game:block/cloth/ropedcloth"
 	},
 	"elements": [

@@ -9,7 +9,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"cedar_seed": "wildcrafttree:item/resource/seeds/douglasfir",
+		"cedar_seed": "item/resource/seeds/douglasfir",
 		"reedrope": "game:block/cloth/ropedcloth"
 	},
 	"elements": [

@@ -9,7 +9,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"kauri_seed": "wildcrafttree:item/resource/seeds/kauri",
+		"kauri_seed": "item/resource/seeds/kauri",
 		"reedrope": "game:block/cloth/ropedcloth"
 	},
 	"elements": [

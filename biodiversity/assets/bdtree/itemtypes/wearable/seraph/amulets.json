@@ -7,7 +7,7 @@
 	],
 	shapeByType: {
 		"*": {
-			base: "entity/humanoid/seraph/clothing/neck/{neck}" 
+			base: "entity/humanoid/seraph/clothing/neck/{neck}"
 		}
 	},
 	storageFlags: 128,
@@ -22,7 +22,7 @@
 			rotation: { x: 0, y: 0, z: -41 } }
 		}
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "wildcrafttree": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "bdtree": ["*"] },
 	renderAlphaTest: 0.25,
 	fpHandTransform: {
 		translation: { x: 0.2, y: -2.5, z: -0.9 },
