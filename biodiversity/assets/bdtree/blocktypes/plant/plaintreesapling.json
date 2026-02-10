@@ -15,7 +15,7 @@
 			"states": [ "free", "snow" ]
 		}
 	],
-	"skipVariants": [ "*-chlorociboria", "*-petrified", "*-charred" ],
+	"skipVariants": [ "*-chlorociboria-*", "*-charred*" ],
 	"shapeByType": {
 		"*": { "base": "block/plant/sapling/plaintree/{wood}" }
 	},

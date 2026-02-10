@@ -1,7 +1,7 @@
 {
 	code: "chlorociboria",
 	maxstacksize: 64,
-	shape: { base: "wildcrafttree:item/chlorociboria" },
+	shape: { base: "item/resource/chlorociboria" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "bdtree": ["*"] },
 	combustibleProps: {
 		burnTemperature: 700,
