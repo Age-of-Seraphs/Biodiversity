@@ -23,7 +23,7 @@
 					"harvestTime": 1,
 					"harvestedStack": {
 						"type": "item",
-						"code": "resin",
+						"code": "game:resin",
 						"quantity": { "avg": 1 }
 					},
 					"harvestedBlockCode": "log-resinharvested-{wood}-ud"
@@ -62,67 +62,67 @@
 	},
 	"shapeByType": {
 		"log-resinharvested-*": {
-			"base": "block/wood/log/noresin1",
+			"base": "game:block/wood/log/noresin1",
 			"alternates": [
 				{
-					"base": "block/wood/log/noresin1",
+					"base": "game:block/wood/log/noresin1",
 					"rotateY": 90
 				},
 				{
-					"base": "block/wood/log/noresin1",
+					"base": "game:block/wood/log/noresin1",
 					"rotateY": 180
 				},
 				{
-					"base": "block/wood/log/noresin1",
+					"base": "game:block/wood/log/noresin1",
 					"rotateY": 270
 				},
 				{
-					"base": "block/wood/log/noresin2",
+					"base": "game:block/wood/log/noresin2",
 					"rotateY": 0
 				},
 				{
-					"base": "block/wood/log/noresin2",
+					"base": "game:block/wood/log/noresin2",
 					"rotateY": 90
 				},
 				{
-					"base": "block/wood/log/noresin2",
+					"base": "game:block/wood/log/noresin2",
 					"rotateY": 180
 				},
 				{
-					"base": "block/wood/log/noresin2",
+					"base": "game:block/wood/log/noresin2",
 					"rotateY": 270
 				}
 			]
 		},
 		"*": {
-			"base": "block/wood/log/withresin1",
+			"base": "game:block/wood/log/withresin1",
 			"alternates": [
 				{
-					"base": "block/wood/log/withresin1",
+					"base": "game:block/wood/log/withresin1",
 					"rotateY": 90
 				},
 				{
-					"base": "block/wood/log/withresin1",
+					"base": "game:block/wood/log/withresin1",
 					"rotateY": 180
 				},
 				{
-					"base": "block/wood/log/withresin1",
+					"base": "game:block/wood/log/withresin1",
 					"rotateY": 270
 				},
 				{
-					"base": "block/wood/log/withresin2",
+					"base": "game:block/wood/log/withresin2",
 					"rotateY": 0
 				},
 				{
-					"base": "block/wood/log/withresin2",
+					"base": "game:block/wood/log/withresin2",
 					"rotateY": 90
 				},
 				{
-					"base": "block/wood/log/withresin2",
+					"base": "game:block/wood/log/withresin2",
 					"rotateY": 180
 				},
 				{
-					"base": "block/wood/log/withresin2",
+					"base": "game:block/wood/log/withresin2",
 					"rotateY": 270
 				}
 			]

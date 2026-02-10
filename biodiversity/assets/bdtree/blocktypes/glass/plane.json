@@ -1,0 +1,50 @@
+{
+  "inheritFrom": "game:blocktypes/glass/pane",
+  "code": "glasspane",
+  "variantgroups": [
+    {
+      "code": "glass",
+      "states": [ "leaded" ]
+    },
+    {
+      "code": "wood",
+      "states": [ ],
+      "loadFromProperties": "bdtree:block/wood"
+    },
+    {
+      "code": "type",
+      "states": [ "ns", "ew" ]
+    }
+  ],
+  "shapebytype": {
+    "*-ew": {
+      "base": "game:block/glass/pane",
+      "rotateY": 0
+    },
+    "*-ns": {
+      "base": "game:block/glass/pane",
+      "rotateY": 90
+    }
+  },
+  "textures": {
+    "frame": {
+      "base": "block/wood/debarked/{wood}",
+      "overlays": [ "game:block/slightlydarker" ]
+    },
+    "glass": { "base": "game:block/glass/{glass}" },
+    "putty": { "base": "game:block/glass/frame" }
+  },
+  "creativeinventory": {
+    "bdtree": [ "*-ew" ]
+  },
+  "sounds": {
+    "place": "game:player/buildhigh",
+    "break": "game:block/glass",
+    "hit": "game:block/glass",
+    "walk": "game:walk/wood",
+    "ambient": "game:environment/rainwindow",
+    "ambientBlockCount": 4,
+    "ambientSoundType": "Weather",
+    "ambientMaxDistanceMerge": 1
+  }
+}

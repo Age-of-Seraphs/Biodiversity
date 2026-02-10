@@ -26,16 +26,35 @@
 		"bdtree": [ "logsection-placed-*-ne-ud" ]
 	},
 	"shapeByType": {
-		"*-ud": { "base": "block/wood/log/section-{segment}" },
+		"*-ud": { "base": "game:block/wood/log/section-{segment}" },
 		"*-ns": {
-			"base": "block/wood/log/section-{segment}",
+			"base": "game:block/wood/log/section-{segment}",
 			"rotateX": 90
 		},
 		"*-we": {
-			"base": "block/wood/log/section-{segment}",
+			"base": "game:block/wood/log/section-{segment}",
 			"rotateX": 90,
 			"rotateZ": 270
 		}
+	},
+	"textures": {
+		"bark": { "base": "block/wood/bark/{wood}-2x2" },
+		"wood": { "base": "block/wood/treetrunk/{wood}-2x2" },
+		"inside": { "base": "block/wood/debarked/{wood}-2x2" },
+
+		"north": { "base": "block/wood/treetrunk/{wood}" },
+		"up": { "base": "block/wood/treetrunk/{wood}" },
+		"down": { "base": "block/wood/bark/{wood}" },
+		"east": { "base": "block/wood/bark/{wood}" },
+		"south": { "base": "block/wood/bark/{wood}" },
+		"west": { "base": "block/wood/bark/{wood}" },
+
+
+		"inside-north": { "base": "block/wood/debarked/{wood}" },
+		"inside-east": { "base": "block/wood/debarked/{wood}" },
+		"inside-south": { "base": "block/wood/debarked/{wood}" },
+		"inside-west": { "base": "block/wood/debarked/{wood}" }
+
 	},
 	"sounds": {
 		"place": "game:block/planks",
