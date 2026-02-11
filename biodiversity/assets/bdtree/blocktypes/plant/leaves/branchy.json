@@ -94,7 +94,7 @@
 		},
 		{
 			"code": "wood",
-			"states": [ /*"crimsonkingmaple"*/ ],
+			"states": [ "bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap" ],
 			"loadFromProperties": "bdtree:block/wood"
 		}
 	],
@@ -103,7 +103,7 @@
 		"flora": [ "leavesbranchy-placed-*" ],
 		"bdtree": [ "leavesbranchy-placed-*" ]
 	},
-
+	"skipVariants": [ "*-chlorociboria*", "*-charred*" ],
 	"shape": {
 		"baseByType": {
 			"*-cedar": "game:block/plant/leaves/branchy-pine",

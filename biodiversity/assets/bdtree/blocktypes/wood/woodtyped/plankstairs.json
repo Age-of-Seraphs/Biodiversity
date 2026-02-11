@@ -1,9 +1,6 @@
 {
 	"inheritFrom": "game:blocktypes/wood/woodtyped/plankstairs",
 	"code": "plankstairs",
-	"class": "BlockStairs",
-	"attributes": {
-	},
 	"variantgroups": [
 		{
 			"code": "wood",

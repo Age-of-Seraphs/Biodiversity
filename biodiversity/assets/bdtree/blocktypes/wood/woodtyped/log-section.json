@@ -1,6 +1,7 @@
 {
 	"inheritFrom": "game:blocktypes/wood/woodtyped/log-section",
 	"code": "logsection",
+	"class": "BlockLogSection",
 	"variantgroups": [
 		{
 			"code": "type",
@@ -8,7 +9,7 @@
 		},
 		{
 			"code": "wood",
-			"states": [ "douglasfir", "redcedar", "kauri", "sycamore", "banyan", "elm", "tamanu" ]
+			"loadFromProperties": "bdtree:block/woodsection"
 		},
 		{
 			"code": "segment",
@@ -23,7 +24,7 @@
 		"general": [ "logsection-placed-*-ne-ud" ],
 		"flora": [ "logsection-placed-*-ne-ud" ],
 		"construction": [ "logsection-placed-*-ne-ud" ],
-		"bdtree": [ "logsection-placed-*-ne-ud" ]
+		"bdtree": [ "logsection-grown-*-ne-ud" ]
 	},
 	"shapeByType": {
 		"*-ud": { "base": "game:block/wood/log/section-{segment}" },

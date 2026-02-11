@@ -112,11 +112,11 @@
       "loadFromProperties": "bdtree:block/wood"
     }
   ],
-  "skipVariants": [ "*-chlorociboria", "*-petrified", "*-charred" ],
+  "skipVariants": [ "*-chlorociboria*", "*-charred*" ],
   "creativeinventory": {
     "general": [ "leaves-placed-*" ],
     "flora": [ "leaves-placed-*" ],
-    "wildcrafttree": [ "leaves-placed-*" ]
+    "bdtree": [ "leaves-placed-*" ]
   },
   "shape": {
     "base": "game:block/plant/leaves/normal",
