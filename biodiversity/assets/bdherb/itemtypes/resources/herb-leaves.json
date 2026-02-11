@@ -1,3 +1,16 @@
 {
-  "code": "leaf"
+  "code": "leaf",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [],
+      "loadFromProperties": "bdherb:item/wildflora"
+    }
+  ],
+  "shape": { "base": "game:item/plank" },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "bdtree": [ "*" ]
+  }
 }

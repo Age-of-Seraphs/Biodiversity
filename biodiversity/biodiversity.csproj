@@ -94,6 +94,7 @@
   <Folder Include="assets\bdcrop\textures\block\food\dairy\" />
   <Folder Include="assets\bdcrop\textures\block\food\pie\" />
   <Folder Include="assets\bdherb\blocktypes\" />
+  <Folder Include="assets\bdflower\" />
   <Folder Include="assets\bdshrub\" />
   <Folder Include="assets\bdorchard\" />
   <Folder Include="assets\bdtree\textures\block\wood\bark\dead\" />

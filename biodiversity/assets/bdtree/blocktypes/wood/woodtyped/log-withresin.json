@@ -129,6 +129,7 @@
 		}
 	},
 	"texturesByType": {
+		/*
 		"log-resin-eucalyptus-ud": {
 			"resin": { "base": "block/redsap" },
 			"bark": { "base": "block/wood/bark/eucalyptus" },
@@ -179,7 +180,9 @@
 				"overlays": [ "game:block/wood/bark/sap2" ]
 			}
 		},
+		*/
 		"*": {
+			"resin": { "base": "game:block/resin" },
 			"bark": { "base": "block/wood/bark/{wood}" },
 			"trunk": { "base": "block/wood/treetrunk/{wood}" },
 			"resinbark1": {

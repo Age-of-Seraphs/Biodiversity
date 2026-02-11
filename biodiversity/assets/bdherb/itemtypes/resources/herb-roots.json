@@ -1,3 +1,15 @@
 {
-  "code": "root"
+  "code": "root",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [],
+      "loadFromProperties": "bdherb:item/wildroot"
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "bdtree": [ "*" ]
+  }
 }
