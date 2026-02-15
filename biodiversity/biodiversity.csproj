@@ -64,6 +64,11 @@
 
 <ItemGroup>
   <Folder Include="assets\bdcrop\itemtypes\food\legume\" />
+  <Folder Include="assets\bdcrop\itemtypes\food\vegetable\" />
+  <Folder Include="assets\bdflower\blocktypes\plant\flower\" />
+  <Folder Include="assets\bdflower\blocktypes\plant\vine\" />
+  <Folder Include="assets\bdherb\blocktypes\plant\aquatic\" />
+  <Folder Include="assets\bdherb\blocktypes\plant\NewFolder\" />
   <Folder Include="src\" />
 </ItemGroup>
 
