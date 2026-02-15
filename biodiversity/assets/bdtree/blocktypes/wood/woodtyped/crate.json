@@ -1,5 +1,4 @@
 {
-	enabled: false,
 	code: "crate",
 	class: "BlockCrate",
 	entityclass: "Crate",
@@ -162,7 +161,7 @@
 	creativeinventory: {},
 	creativeinventoryStacks: [
 		{
-			tabs: [ "general", "decorative", "wildcrafttree" ],
+			tabs: [ "general", "decorative", "bdtree" ],
 			stacks: [
 				{
 					type: "block",
