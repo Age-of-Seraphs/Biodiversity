@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "inheritFrom": "game:blocktypes/glass/pane",
   "code": "glasspane",
   "variantgroups": [
@@ -8,7 +9,7 @@
     },
     {
       "code": "wood",
-      "states": [ ],
+      "states": [],
       "loadFromProperties": "bdtree:block/wood"
     },
     {
@@ -27,14 +28,22 @@
     }
   },
   "textures": {
-    "frame": {
-      "base": "block/wood/debarked/{wood}",
-      "overlays": [ "game:block/slightlydarker" ]
-    },
-    "glass": { "base": "game:block/glass/{glass}" },
-    "putty": { "base": "game:block/glass/frame" }
+    "textures": {
+      "debarked": {
+        "base": "block/wood/debarked/{wood}",
+        "overlays": [ "game:block/slightlydarker" ]
+      },
+      "planks": {
+        "base": "block/wood/planks/{wood}1",
+        "overlays": [ "game:block/slightlydarker" ]
+      },
+      "glass": { "base": "game:block/glass/{glass}" },
+      "putty": { "base": "game:block/glass/frame" }
+    }
   },
   "creativeinventory": {
+    "general": [ "*-ew" ],
+    "construction": [ "*-ew" ],
     "bdtree": [ "*-ew" ]
   },
   "sounds": {
