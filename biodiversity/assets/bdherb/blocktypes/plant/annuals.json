@@ -5,7 +5,7 @@
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["basil", "blackpepper", "celery", "chamomile", "cilantro", "dill", "dock", "mustard", "stingingnettle", "burdock", "chicory","marigold", "saltwort","liquorice", "jewelweed"]},
+		{ "code": "type", "loadfromproperties": "bdherb:block/herb"},
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
 	"attributes": {
@@ -68,15 +68,7 @@
       "burdock_leaf_small": {"base": "block/plant/leafygroundvegetable/burdock_leaf_small"},
       "burdock_leaf_big": {"base": "block/plant/leafygroundvegetable/burdock_leaf_big"} 
     },
-    "*-lavender-*": {
-			"north": { "base": "block/plant/leafygroundvegetable/{state}/lavender" },
-			"south": { "base": "block/plant/leafygroundvegetable/{state}/lavender*" },
-			"flower2": { "base": "block/plant/leafygroundvegetable/{state}/lavender" },
-			"northTinted": { "base": "block/plant/leafygroundvegetable/{state}/lavender" },
-			"southTinted": { "base": "block/plant/leafygroundvegetable/{state}/lavender" },
-			"flower2Tinted": { "base": "block/plant/leafygroundvegetable/{state}/lavender" }
-    },
-
+    
     "*-burdock-harvested*":{
       "leaves": { "base": "block/plant/leafygroundvegetable/burdock_harvested*"}
     },
@@ -93,7 +85,6 @@
     "*-burdock-normal*": {"base": "block/plant/leafygroundvegetable/burdock_normal1"},
     "*-thistle-normal*": {"base": "block/plant/leafygroundvegetable/burdock_normal*"},
     "*-stingingnettle-*": {"base": "block/plant/stingingnettle/stingingnettle_normal*"},
-    "*-celery-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
     "*-basil-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
     "*-chamomile-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
     "*-cilantro-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
@@ -172,13 +163,6 @@
         "type": "item",
         "code": "root-liquorice",
         "quantity": { "avg": 1.2 }
-      }
-    ],
-    "*-celery-harvested": [
-      {
-        "type": "item",
-        "code": "root-celery",
-        "quantity": { "avg": 1.8 }
       }
     ],
     "*-stingingnettle-normal": [

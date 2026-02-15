@@ -9,7 +9,7 @@
   "variantgroups": [
     {
       "code": "type",
-      "states": [ "bearleek", "marjoram", "sage", "marshmallow", "mint", "saffron", "stjohnswort", "mugwort", "inula", "celandine", "leek", "plantain", "yarrow", "foxglove", "angelica", "rockrose", "horehound", "ginger", "burnet", "arnica", "cicuta", "tansy", "ginseng", "katuk" ]
+      "states": [ "bearleek", "marjoram", "sage", "marshmallow", "mint", "saffron", "stjohnswort", "inula", "celandine", "leek", "whitemansfoot", "yarrow", "foxglove", "angelica", "rockrose", "horehound", "ginger", "burnet", "arnica", "cicuta", "tansy", "ginseng", "katuk" ]
     },
     {
       "code": "state",
@@ -74,8 +74,8 @@
       "inula_leaf": {"base": "block/plant/leafygroundvegetable/inula_leaf"} 
     },
     "*-plantain-normal": {
-      "leaves": {"base": "block/plant/leafygroundvegetable/normal/plantain"},
-      "stems": {"base": "block/plant/leafygroundvegetable/normal/plantain_b"}
+      "leaves": { "base": "block/plant/leafygroundvegetable/normal/whitemansfoot" },
+      "stems": {"base": "block/plant/leafygroundvegetable/normal/whitemansfoot_b"}
     },
     "*": {
       "leaves": { "base": "block/plant/leafygroundvegetable/{state}/{type}*" }
@@ -88,37 +88,12 @@
   },
   "shapeByType": {
     "*-stingingnettle-*": { "base": "block/plant/stingingnettle/stingingnettle_normal*" },
-    "*-mugwort-*": {"base": "block/plant/leafygroundvegetable/sedge/sedge_untinted"},
-    "*-sedge-*": {"base": "block/plant/leafygroundvegetable/bushy_normal"},
-    "*-inula-normal*": {"base": "block/plant/leafygroundvegetable/inula_normal*"},
-    "*-plantain-normal": {"base": "block/plant/leafygroundvegetable/plantain/plantain1"}, 
-    "*-katuk-*": { "base": "block/plant/leafygroundvegetable/katuk"},
+    "*-inula-normal*": { "base": "block/plant/leafygroundvegetable/inula_normal*" },
+    "*-plantain-normal": { "base": "block/plant/leafygroundvegetable/plantain/plantain1" },
+    "*-katuk-*": { "base": "block/plant/leafygroundvegetable/katuk" },
 
-    "*-bearleek-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-marjoram-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-sage-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-marshmallow-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-mint-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-saffron-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-stjohnswort-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-celandine-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-leek-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-foxglove-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-yarrow-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-angelica-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-rockrose-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-horehound-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-ginger-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-arnica-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-burnet-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-ginseng-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-cicuta-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*-tansy-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-
-
-
-    "@*-(bearleek|marjoram|sage|marshmallow|mint|saffron|stjohnswort|celandine|leek|foxglove)-*": {"base": "block/plant/leafygroundvegetable/default/default_normal*"},
-    "*": {"base": "block/plant/leafygroundvegetable/default_normal"}
+    "@*-(bearleek|marjoram|marshmallow|saffron|stjohnswort|celandine|foxglove|yarrow|angelica|rockrose|horehound|ginger|arnica|burnet|ginsing|cicuta|tansy)-*": { "base": "block/plant/leafygroundvegetable/default/default_normal*" },
+    "*": { "base": "block/plant/leafygroundvegetable/default_normal" }
   },
 	"renderpass": "BlendNoCull",
 	"blockmaterial": "Plant",
@@ -200,20 +175,6 @@
         "type": "item",
         "code": "herb-{type}",
         "quantity": { "avg": 1.5 }
-      }
-    ],
-    "*-mugwort-normal": [
-      {
-        "type": "item",
-        "code": "herb-{type}",
-        "quantity": { "avg": 2.5 }
-      }
-    ],
-    "*-sedge-normal": [
-      {
-        "type": "item",
-        "code": "herb-{type}",
-        "quantity": { "avg": 2.5 }
       }
     ],
     "*-normal": [

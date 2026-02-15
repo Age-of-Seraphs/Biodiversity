@@ -8,6 +8,7 @@
 	"variantgroups": [
 		{
 			"code": "wood",
+			"states": [ "bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap" ],
 			"loadFromProperties": "bdtree:block/wood"
 		},
 		{
@@ -205,6 +206,9 @@
 			}
 		},
 		"plantContainable": {
+			"smallContainer": {
+				"shapeByType": {}
+			},
 			"largeContainer": {
 				"shapeByType": {
 					"*": { "base": "block/plant/sapling/plaintree/potted/{wood}-large" }

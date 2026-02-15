@@ -1,11 +1,9 @@
 {
 	"code": "chlorociboriaspores",
-	"attributes": {},
 	"maxstacksize": 64,
-	shape: { base: "game:item/seedbag" },
+	shape: { "base": "game:item/resource/seeds/seedbag" },
 	"texture": { "base": "item/resource/chlorociboriaspores" },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "bdtree": [ "*" ] },
-	"storageFlags": 33,
 	guiTransform: {
 		translation: { x: 0, y: 0, z: 0 },
 		rotation: { x: 159, y: 148, z: 0 },

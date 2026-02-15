@@ -63,7 +63,7 @@
 </ItemGroup>
 
 <ItemGroup>
-  <Folder Include="assets\bdcrop\shapes\item\vegetable\" />
+  <Folder Include="assets\bdcrop\itemtypes\food\legume\" />
   <Folder Include="src\" />
 </ItemGroup>
 
