@@ -28,7 +28,7 @@ namespace CakeBuild
     {
         public const string ProjectName = "biodiversity";
 
-        public string[] SubProjectNames = new[] { "bdcrop", "bdflower", "bdorchard", "bdshrub", "bdtree" };
+        public string[] SubProjectNames = new[] { "bdcrop", "bdflower", "bdorchard", "bdshrub", "bdtree", "bdnut" };
 
         public string SubProjectName = "";
 
