@@ -10,11 +10,6 @@
 			"code": "wood",
 			"states": [],
 			"loadFromProperties": "bdtree:block/wood"
-		},
-		{
-			"code": "style",
-			"states": [ "crude", "ruined-rough1", "ruined-rough2", "ruined-rough3", "ruined-windowed1", "ruined-windowed2", "ruined-windowed3" ],
-			"combine": "add"
 		}
 	],
 	"attributes": {
