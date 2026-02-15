@@ -15,7 +15,7 @@
 		name: "grindstone",
 		width: 3,
 		height: 3,
-		output: { type: "item", code: "grindstone-{rock}"  }
+		output: { type: "item", code: "game:grindstone-{rock}"  }
 	},
 	{
 		ingredientPattern: "_G_,PAP,PNP",
