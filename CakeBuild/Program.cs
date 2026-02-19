@@ -112,9 +112,9 @@ namespace CakeBuild
                     context.CopyDirectory($"../{BuildContext.ProjectName}/assets/{item}", $"../Releases/{item}/assets/{item}");
                 }
                 context.CopyFile($"../{BuildContext.ProjectName}/modinfo/{item}.json", $"../Releases/{item}/modinfo.json");
-                if (context.FileExists($"../{BuildContext.ProjectName}/modicon.png"))
+                if (context.FileExists($"../{BuildContext.ProjectName}/modicon/{item}.png"))
                 {
-                    context.CopyFile($"../{BuildContext.ProjectName}/modicon.png", $"../Releases/{context.Name}/modicon.png");
+                    context.CopyFile($"../{BuildContext.ProjectName}/modicon/{item}.png", $"../Releases/{item}/modicon.png");
                 }
                 context.Zip($"../Releases/{item}", $"../Releases/{context.Name}_{item}_{context.Version}.zip");
             }
