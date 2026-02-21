@@ -20,7 +20,7 @@
 		"flora": [ "lognarrow-placed-*-ud" ],
 		"bdtree": [ "lognarrow-placed-*-ud" ]
 	},
-	"shape": { "base": "block/wood/log/narrow" },
+	"shape": { "base": "block/wood/narrow" },
 	
 	"textures": {
 		"all": { "base": "block/wood/bark/narrow/{wood}" }
