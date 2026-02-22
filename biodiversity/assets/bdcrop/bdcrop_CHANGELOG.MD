@@ -19,3 +19,9 @@ removed all instances of oxheart and roma tomato from: itemtypes, item/food, sha
 removed all instances of strawberry from textures and item folders
 moved potato blocktype up one folder
 Completed potato block V1 in game, still need to impliment making seed and cooking in fire recipies
+
+PUSH
+
+Added crafting recipie for making seed potatoes
+Added patch folder to tag new crops to exsiting recipes
+Added item shapes and textures for Leek, Tomato, and Squash.  Models and Textures from Fuego Fish
