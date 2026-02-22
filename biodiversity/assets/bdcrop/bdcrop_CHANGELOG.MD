@@ -25,3 +25,6 @@ PUSH
 Added crafting recipie for making seed potatoes
 Added patch folder to tag new crops to exsiting recipes
 Added item shapes and textures for Leek, Tomato, and Squash.  Models and Textures from Fuego Fish
+
+2/22/2026 - TLT
+Completed Cleanup.  Removed almost everything not being included in the 1.0 release of this mod.  Exception is eggplant textures and models (future crop)

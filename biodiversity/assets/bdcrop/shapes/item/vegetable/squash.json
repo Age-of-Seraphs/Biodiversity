@@ -9,7 +9,7 @@
 		"squash": [24,24]
 	},
 	"textures": {
-		"squash": "squash"
+		"squash": "game:item/food/vegetable/squash"
 	},
 	"elements": [
 		{

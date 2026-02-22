@@ -14,11 +14,10 @@
 	],
 	creativeinventory: {
 		"general": [ "" ],
-		"plants": [ "" ], 
-		"bdcrop": ["*"]
+		"plants": [ "" ]
 	},
 	renderpass: "OpaqueNoCull",
-	shape: { base: "block/plant/croptuber/crosspotato" },
+	shape: { base: "block/plant/crop/crosspotato" },
 	blockmaterial: "Plant",
 	randomizeRotations: true,
 	textures: {

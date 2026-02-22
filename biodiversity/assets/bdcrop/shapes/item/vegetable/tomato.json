@@ -6,10 +6,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"tomato": [16,16]
+		//"tomato": [16,16]
 	},
 	"textures": {
-		"tomato": "tomato"
+		"tomato": "game:item/food/vegetable/tomato"
 	},
 	"elements": [
 		{
