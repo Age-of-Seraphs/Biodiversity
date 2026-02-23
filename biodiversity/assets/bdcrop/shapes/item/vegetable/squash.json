@@ -9,7 +9,7 @@
 		"squash": [24,24]
 	},
 	"textures": {
-		"squash": "squash"
+		"squash": "bdcrop:item/food/vegetable/squash"
 	},
 	"elements": [
 		{

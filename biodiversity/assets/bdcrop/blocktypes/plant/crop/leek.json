@@ -5,7 +5,7 @@
 	variantgroups: [
 		{
 			code: "type",
-			states: [ "potato" ]
+			states: [ "leek" ]
 		},
 		{
 			code: "stage",
@@ -14,15 +14,14 @@
 	],
 	creativeinventory: {
 		"general": [ "" ],
-		"plants": [ "" ], 
-		"bdcrop": ["*"]
+		"plants": [ "" ]
 	},
 	renderpass: "OpaqueNoCull",
-	shape: { base: "block/plant/croptuber/crosspotato" },
+	shape: { base: "block/plant/crop/leek" },
 	blockmaterial: "Plant",
 	randomizeRotations: true,
 	textures: {
-		all : { base: "block/plant/crop/potato/w{stage}" },
+		all : { base: "block/plant/crop/leek/w{stage}" },
 	},
 	attributes: {
 		butterflyFeedByType: {
@@ -57,34 +56,23 @@
 	},
 	rainPermeable: false,
 	dropsByType: {
-		// Potatoes do not have seeds but self propigate
-		"*-5": [
-			{
-				type: "item",
-				code: "vegetable-potato",
-				quantity: {
-					avg: 2,
-					var: 1
-				}
-			},
-		],
 		"*-6": [
 			{
 				type: "item",
-				code: "vegetable-potato",
+				code: "vegetable-leek",
 				quantity: {
-					avg: 5,
-					var: 1
+					avg: 6,
+					var: 2
 				}
 			},
 		],
 		"*-7": [
 			{
 				type: "item",
-				code: "vegetable-potato",
+				code: "vegetable-leek",
 				quantity: {
-					avg: 9,
-					var: 2
+					avg: 12,
+					var: 4
 				}
 			},
 		],
@@ -100,12 +88,13 @@
 		]
 	},
 	cropProps: {
-		// Potatoes require potasium and nitrogen. (FEDCO catalog)
-		requiredNutrient: "K",
+		// Leeks require nitrogen. (FEDCO catalog)
+		requiredNutrient: "N",
 		nutrientConsumption: 35,
 		growthStages: 7,
-		totalGrowthMonths: 2.0,
-		coldDamageBelow: -1,
+		totalGrowthMonths: 1.5,
+		coldDamageBelow: -5,
+		heatDamageAbove: 35,
 	},
 	collisionbox: null,
 	selectionbox: {

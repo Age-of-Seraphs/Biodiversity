@@ -2,31 +2,16 @@
     "code": "vegetable",
     "variants": [
       {
-        "code": "leek"
-      },
-      {
-        "code": "rhubarb"
-      },
-      {
-        "code": "celery"
-      },
-      {
-        "code": "cucumber"
-      },
-      {
-        "code": "tomato"
-      },
-      {
-        "code": "jalapeno"
-      },
-      {
-        "code": "cayenne"
-      },
-      {
-        "code": "habanero"
-      },
-      {
-        "code": "tabasco"
-      }
+      "code": "leek"
+    },
+    {
+      "code": "cucumber"
+    },
+    {
+      "code": "tomato"
+    },
+    {
+      "code": "squash"
+    },
     ]
   }
