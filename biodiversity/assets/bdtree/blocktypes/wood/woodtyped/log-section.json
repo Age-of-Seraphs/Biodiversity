@@ -43,7 +43,7 @@
 		"general": [ "logsection-placed-*-ne-ud" ],
 		"flora": [ "logsection-placed-*-ne-ud" ],
 		"construction": [ "logsection-placed-*-ne-ud" ],
-		"bdtree": [ "logsection-grown-*-ne-ud" ]
+		"bdtree": [ "logsection-placed-*-ne-ud" ]
 	},
 	"shapeByType": {
 		"*-ud": { "base": "game:block/wood/log/section-{segment}" },

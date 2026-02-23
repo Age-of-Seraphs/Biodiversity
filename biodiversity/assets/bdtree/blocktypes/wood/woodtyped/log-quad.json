@@ -16,6 +16,7 @@
 			"states": [ "ud", "ns", "we" ]
 		}
 	],
+	"skipVariants": [ "*-chlorociboria-*" ],
 	"creativeinventory": {
 		"general": [ "logquad-{type}-*-ud" ],
 		"flora": [ "logquad-{type}-*-ud" ],

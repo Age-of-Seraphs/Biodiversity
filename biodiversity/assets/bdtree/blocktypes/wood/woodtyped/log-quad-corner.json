@@ -16,6 +16,7 @@
 			"loadFromProperties": "abstract/horizontalorientation"
 		}
 	],
+	"skipVariants": [ "*-chlorociboria-*" ],
 	"shapebytype": {
 		"*-north": {
 			"base": "game:block/wood/logquad-corner",
@@ -49,7 +50,8 @@
 	"creativeinventory": {
 		"general": [ "*-north" ],
 		"flora": [ "*-north" ],
-		"construction": [ "*-north" ]
+		"construction": [ "*-north" ],
+		"bdtree": [ "*-north" ]
 	},
 	"sounds": {
 		"place": "game:block/planks",

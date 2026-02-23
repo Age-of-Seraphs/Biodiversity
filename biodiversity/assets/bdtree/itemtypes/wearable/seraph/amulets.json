@@ -12,7 +12,7 @@
 			"code": "neck",
 			"combine": "SelectiveMultiply",
 			"onVariant": "category",
-			"states": [ "cedar", "spruce", "fir", "douglasfir", "kauricone", "tuja", "wiliwili", "bearnut" ]
+			"states": [ "cedar", "spruce", "fir", "douglas", "kauri", "tuja", "wiliwili", "bearnut" ]
 		},
 		{
 			"code": "seed",

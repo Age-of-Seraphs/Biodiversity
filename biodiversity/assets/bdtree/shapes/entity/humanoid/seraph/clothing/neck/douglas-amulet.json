@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "game:entity/humanoid/seraph",
+		"backDropShape": "entity/humanoid/seraph",
 		"allAngles": true,
 		"entityTextureMode": false
 	},
@@ -17,6 +17,7 @@
 	"elements": [
 		{
 			"name": "hideme",
+			"stepParentName": "UpperTorso",
 			"from": [2, 5, 3],
 			"to": [2, 5, 3],
 			"rotationOrigin": [2, 5, 3],
@@ -166,8 +167,7 @@
 					"rotationY": 47.177,
 					"rotationZ": -36.443
 				}
-			],
-			"stepParentName": "UpperTorso"
+			]
 		}
 	],
 	"animations": []

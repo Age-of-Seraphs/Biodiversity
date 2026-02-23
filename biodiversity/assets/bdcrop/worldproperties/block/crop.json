@@ -1,5 +1,5 @@
 {
-    "code": "crops",
+    "code": "crop",
   "variants": [
     {
       "code": "potato"
@@ -20,13 +20,13 @@
       "code": "mirzamelon"
     },
     {
-      "code": "muskmelon"
+      "code": "celery"
     },
     {
-      "code": "watermelon"
+      "code": "potato"
     },
     {
-      "code": "naplessquash"
+      "code": "blagoeahgjkera"
     }
 
   ]

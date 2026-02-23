@@ -6,7 +6,12 @@
 		{
 			"code": "type",
 			"states": [],
-			"loadFromProperties": "bdcrop:block/crops"
+			"loadFromProperties": "bdcrop:block/vinecrops"
+		},
+		{
+			"code": "type",
+			"loadFromProperties": "bdcrop:block/crop",
+			"combine": "add"
 		}
 	],
 	"shape": { "base": "game:item/resource/seeds/seedbag" },
