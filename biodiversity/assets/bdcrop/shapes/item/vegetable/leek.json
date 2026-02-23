@@ -10,7 +10,7 @@
 		"leek": [16,16]
 	},
 	"textures": {
-		"leek": "game:item/food/vegetable/leek"
+		"leek": "bdcrop:item/food/vegetable/leek"
 	},
 	"elements": [
 		{
