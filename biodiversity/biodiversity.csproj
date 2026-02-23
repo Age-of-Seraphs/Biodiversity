@@ -9,8 +9,11 @@
 
   <ItemGroup>
     <Compile Remove=".disabledassets\**" />
+    <Compile Remove="assets\bdcrop\itemtypes\food\vegetable\**" />
     <EmbeddedResource Remove=".disabledassets\**" />
+    <EmbeddedResource Remove="assets\bdcrop\itemtypes\food\vegetable\**" />
     <None Remove=".disabledassets\**" />
+    <None Remove="assets\bdcrop\itemtypes\food\vegetable\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -69,7 +72,7 @@
 </ItemGroup>
 
 <ItemGroup>
-  <Folder Include="assets\bdcrop\itemtypes\food\vegetable\" />
+  <Folder Include="assets\bdcrop\recipes\grid\" />
   <Folder Include="assets\bdherb\blocktypes\plant\aquatic\" />
   <Folder Include="assets\bdherb\blocktypes\plant\NewFolder\" />
   <Folder Include="assets\bdtree\textures\block\wood\bark\dead\" />

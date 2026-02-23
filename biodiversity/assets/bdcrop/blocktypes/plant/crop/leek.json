@@ -1,0 +1,114 @@
+{
+	code: "crop",
+	class: "BlockCrop",
+	behaviors: [ { name: "Unstable" } ],
+	variantgroups: [
+		{
+			code: "type",
+			states: [ "leek" ]
+		},
+		{
+			code: "stage",
+			states: [ "1", "2", "3", "4", "5", "6", "7" ]
+		},
+	],
+	creativeinventory: {
+		"general": [ "" ],
+		"plants": [ "" ]
+	},
+	renderpass: "OpaqueNoCull",
+	shape: { base: "block/plant/crop/leek" },
+	blockmaterial: "Plant",
+	randomizeRotations: true,
+	textures: {
+		all : { base: "block/plant/crop/leek/w{stage}" },
+	},
+	attributes: {
+		butterflyFeedByType: {
+			"*-4": true,
+			"*-5": true,
+			"*": false
+		},
+		beeFeedByType: {
+			"*-4": true,
+			"*-5": true,
+			"*": false
+		},
+		sitHeight: 0.5,
+		tickGrowthProbability: 0.05,
+		handbook: {
+			include: true
+		}
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 0.5,
+	sounds: {
+		place: "block/plant",
+		break: "block/plant",
+		hit: "block/plant"
+	},
+	rainPermeable: false,
+	dropsByType: {
+		"*-6": [
+			{
+				type: "item",
+				code: "vegetable-leek",
+				quantity: {
+					avg: 6,
+					var: 2
+				}
+			},
+		],
+		"*-7": [
+			{
+				type: "item",
+				code: "vegetable-leek",
+				quantity: {
+					avg: 12,
+					var: 4
+				}
+			},
+		],
+		"*": [
+			{
+				type: "item",
+				code: "vegetable-potato",
+				quantity: {
+					avg: 0.5,
+					var: 0
+				}
+			},
+		]
+	},
+	cropProps: {
+		// Leeks require nitrogen. (FEDCO catalog)
+		requiredNutrient: "N",
+		nutrientConsumption: 35,
+		growthStages: 7,
+		totalGrowthMonths: 1.5,
+		coldDamageBelow: -5,
+		heatDamageAbove: 35,
+	},
+	collisionbox: null,
+	selectionbox: {
+		x1: 0.0625,
+		y1: 0,
+		z1: 0.0625,
+		x2: 0.9375,
+		y2: 0.25,
+		z2: 0.9375
+	},
+	materialDensity: 200,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	frostable: true
+}

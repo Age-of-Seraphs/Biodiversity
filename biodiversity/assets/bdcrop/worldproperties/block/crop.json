@@ -2,19 +2,32 @@
     "code": "crop",
   "variants": [
     {
-      "code": "leek"
-    },
-    {
-      "code": "rhubarb"
-    },
-    {
-      "code": "celery"
-    },
-    {
       "code": "potato"
     },
     {
-      "code": "blagoeahgjkera"
+      "code": "leek"
+    },
+    {
+      "code": "tomato"
+    },
+    {
+      "code": "squash"
+    },
+    {
+      "code": "honeydewmelon"
+    },
+    {
+      "code": "mirzamelon"
+    },
+    {
+      "code": "muskmelon"
+    },
+    {
+      "code": "watermelon"
+    },
+    {
+      "code": "celery"
     }
+
   ]
   }
